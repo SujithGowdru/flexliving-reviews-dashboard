@@ -1,0 +1,92 @@
+[
+  {
+    "status": "success",
+    "result": {
+      "id": 7451,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "John and his friends were respectful and left the apartment spotless. Would host again!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respecthouserules", "rating": 9 }
+      ],
+      "submittedAt": "2023-06-15 10:12:05",
+      "guestName": "John Smith",
+      "listingName": "Modern Flat in Soho"
+    }
+  },
+  {
+    "status": "success",
+    "result": {
+      "id": 7452,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Nice location but noisy at night. Host was quick to answer questions.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respecthouserules", "rating": 8 }
+      ],
+      "submittedAt": "2023-06-22 18:45:43",
+      "guestName": "Emily Thompson",
+      "listingName": "Modern Flat in Soho"
+    }
+  },
+  {
+    "status": "success",
+    "result": {
+      "id": 7460,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "Apartment was not very clean. Had trouble with the WiFi.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 4 },
+        { "category": "communication", "rating": 6 },
+        { "category": "respecthouserules", "rating": 7 }
+      ],
+      "submittedAt": "2023-08-09 20:11:16",
+      "guestName": "Raj Patel",
+      "listingName": "Spacious 2BR City Center"
+    }
+  },
+  {
+    "status": "success",
+    "result": {
+      "id": 7475,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Excellent guest! Left the place in perfect condition.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respecthouserules", "rating": 10 }
+      ],
+      "submittedAt": "2023-09-02 15:36:48",
+      "guestName": "Sophie Harrison",
+      "listingName": "Spacious 2BR City Center"
+    }
+  },
+  {
+    "status": "success",
+    "result": {
+      "id": 7476,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Great stay, just a minor issue with check-in instructions.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 7 },
+        { "category": "respecthouserules", "rating": 9 }
+      ],
+      "submittedAt": "2023-10-01 13:02:20",
+      "guestName": "Mohammed Ali",
+      "listingName": "Luxury Studio Midtown"
+    }
+  }
+]
