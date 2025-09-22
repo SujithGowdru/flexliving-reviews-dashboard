@@ -15,8 +15,36 @@ If you are developing a production application, we recommend updating the config
 export default defineConfig([
   globalIgnores(['dist']),
   {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
+
+## Quick start (local development)
+
+Start the backend (FastAPI):
+
+1. From the project root:
+
+  - Create and activate a virtualenv
+  - Install requirements
+  - Run uvicorn
+
+  Example commands (macOS / zsh):
+
+  cd backend
+  python -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  uvicorn main:app --reload --port 8000
+
+Start the frontend (Vite):
+
+1. In a separate terminal:
+
+  cd frontend
+  npm install
+  npm run dev
+
+The frontend expects the backend at http://127.0.0.1:8000 by default.
+
+````
       // Other configs...
 
       // Remove tseslint.configs.recommended and replace with this
